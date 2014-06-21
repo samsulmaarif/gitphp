@@ -1,2 +1,2 @@
-baseurl: /gitphp
+baseurl: "/gitphp"
 markdown: kramdown
