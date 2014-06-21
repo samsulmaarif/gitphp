@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}GitPHP by xiphux</title>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+    <script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ site.baseurl }}">GitPHP</a></h1>
+        <p>A web based git repository browser written in PHP</p>
+        <ul>
+          <li><a href="https://github.com/xiphux/gitphp/releases">Download <strong>Releases</strong></a></li>
+          <li><a href="https://github.com/xiphux/gitphp/issues?state=open">Report <strong>Issues</strong></a></li>
+          <li><a href="https://github.com/xiphux/gitphp">View <strong>Project</strong></a></li>
+        </ul>
+      </header>
+      <section>
+      {{ content }}
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/xiphux">xiphux</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+{% include analytics.html %}
+  </body>
+</html>
