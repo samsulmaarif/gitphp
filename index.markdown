@@ -31,7 +31,7 @@ You can use GitPHP to browse the GitPHP master repository at [http://source.gitp
 
 # Documentation
 
-Installing and configuring GitPHP is easy. The [Installation]({{ site.baseurl }}/installation) page should be all you need to get started.
+Installing and configuring GitPHP is easy. The [installation]({{ site.baseurl }}/installation) page should be all you need to get started.
 
 Other documentation:
 
@@ -56,7 +56,7 @@ You can clone the GitPHP repository from the [GitHub project page](https://githu
 
 ### Build
 
-GitPHP can be run directly from a snapshot tarball or a git checkout. However, there are a few things to be aware of before doing this. Please read [Building a release]({{ site.baseurl }}/build).
+GitPHP can be run directly from a snapshot tarball or a git checkout. However, there are a few things to be aware of before doing this. Please read [building a release]({{ site.baseurl }}/build).
 
 # API
 
