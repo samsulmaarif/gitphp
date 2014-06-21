@@ -28,14 +28,16 @@ To begin, you need to have your git repositories set up in a directory that the 
 **These must be [bare repositories](http://schacon.github.com/git/user-manual.html#public-repositories). GitPHP will not read working copy repositories (the .git hidden folder in your source tree).**
 
 You can make a copy of your bare repository by running:
-```
+
+~~~
 git clone --bare ~/myproject /gitprojects/myproject.git
-```
+~~~
 
 Or, a new bare repository can be initialized with:
-```
+
+~~~
 git init --bare /gitprojects/mybareproject.git
-```
+~~~
 
 Once you have your projects in a directory, something like:
 * /gitprojects/project1.git
@@ -46,13 +48,16 @@ Now you can begin setting up GitPHP.
 ## Install
 1. Extract the GitPHP files to a place readable by your web server.
 2. Change the permissions of the templates_c directory to be writable by your webserver. This can be done by either:
-```
+
+~~~
 chown apache:apache templates_c
-```
+~~~
+
 (assuming your webserver runs as user/group apache - this is the better way), or:
-```
+
+~~~
 chmod 777 templates_c
-```
+~~~
 
 ## Required Configuration
 1. Set up your config file. In the config directory, copy the example config file, gitphp.conf.php.example, to gitphp.conf.php.

@@ -32,11 +32,11 @@ $git_projects = '/git/projectlist.txt';
 
 This file contains a list of project paths relative to the projectroot, with each optionally followed by a space and an owner. The format is the standard Gitweb project list format, which can also be exported by apps like Gitosis and Gitolite.
 
-```
+~~~
 gentoo.git Chris Han
 php/gitphp.git Chris Han
 core/fbx.git
-```
+~~~
 
 ### SCM-Manager Config
 In config.projects.conf.php, you can set the $git_projects variable to the path to an [SCM-Manager](http://www.scm-manager.org/) repository config file. This is usually named repositories.xml, and resides in your SCM-Manager config directory in your home directory. GitPHP will only display git projects marked as public in SCM-Manager.
@@ -94,7 +94,7 @@ Config values can also be set in the project's git config itself. This is the 'c
 
 In the config, the section is `[gitphp]`, and the key is the setting. Your config file could have a section like this:
 
-```
+~~~
 [gitphp]
     category = PHP
     description = GitPHP, a web-based git repository browser in PHP
@@ -107,10 +107,10 @@ In the config, the section is `[gitphp]`, and the key is the setting. Your confi
     website = http://www.gitphp.org
     allowedusers = user1
     allowedusers = user2
-```
+~~~
 
 Or, by setting individual config keys using git-config on the command line:
 
-```
+~~~
 git --git-dir=/git/project.git config gitphp.category PHP
-```
+~~~
