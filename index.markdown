@@ -27,7 +27,7 @@ The current release is 0.2.9.1. You can get it from the [releases list](https://
 
 # Demo
 
-You can use GitPHP to browse the GitPHP master repository at [http://source.gitphp.org](http://source.gitphp.org).
+You can use GitPHP to browse the GitPHP repository at [http://source.gitphp.org](http://source.gitphp.org).
 
 # Documentation
 
