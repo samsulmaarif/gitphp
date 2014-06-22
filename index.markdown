@@ -43,6 +43,7 @@ Other documentation:
 * [User Authentication]({{ site.baseurl }}/user-authentication)
 * [Translating]({{ site.baseurl }}/translating)
 * [Acknowledgements]({{ site.baseurl }}/acknowledgements)
+* [Themes]({{ site.baseurl }}/themes)
 
 # Source
 
