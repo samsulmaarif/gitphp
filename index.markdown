@@ -59,10 +59,6 @@ You can clone the GitPHP repository from the [GitHub project page](https://githu
 
 GitPHP can be run directly from a snapshot tarball or a git checkout. However, there are a few things to be aware of before doing this. Please read [building a release]({{ site.baseurl }}/build).
 
-# API
-
-Generated documentation for the source tree can be viewed at [http://api.gitphp.org](http://api.gitphp.org).
-
 # Support
 
 For bugs, enhancement suggestions, and questions, feel free to submit to the [issue tracker](https://github.com/xiphux/gitphp/issues?state=open) with the appropriate label. Alternately, you can contact [Chris Han](https://github.com/xiphux) directly.
