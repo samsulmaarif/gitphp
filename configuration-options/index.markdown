@@ -255,7 +255,7 @@ This is an array of servers. Each server is specified as an array.
 * Index 2 (optional): The weight, default is 1
 
 Example:
-{% highlight php %}
+{% highlight php startinline %}
 array(
     array('127.0.0.1', 11211, 2),
     array('memcacheserver1.local', 11211),

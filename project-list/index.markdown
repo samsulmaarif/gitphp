@@ -15,7 +15,7 @@ If you set the [exportedonly]({{ site.baseurl }}/configuration-options/#exported
 ### Array
 In config/projects.conf.php, you can set the $git_projects variable to an array of projects, and only these projects will be displayed. These are project paths relative to the project root.
 
-{% highlight php %}
+{% highlight php startinline %}
 $git_projects = array(
   'gentoo.git',
   'php/gitphp.git',
@@ -26,7 +26,7 @@ $git_projects = array(
 ### File List
 In config/projects.conf.php, you can set the $git_projects variable to the path to a list of projects.
 
-{% highlight php %}
+{% highlight php startinline %}
 $git_projects = '/git/projectlist.txt';
 {% endhighlight %}
 
@@ -41,7 +41,7 @@ core/fbx.git
 ### SCM-Manager Config
 In config.projects.conf.php, you can set the $git_projects variable to the path to an [SCM-Manager](http://www.scm-manager.org/) repository config file. This is usually named repositories.xml, and resides in your SCM-Manager config directory in your home directory. GitPHP will only display git projects marked as public in SCM-Manager.
 
-{% highlight php %}
+{% highlight php startinline %}
 $git_projects = '~/.scm/config/repositories.xml';
 {% endhighlight %}
 
@@ -66,7 +66,7 @@ Additionally, the following global settings can be overridden on a per-project l
 ### Project Config File
 In config/projects.conf.php, the variable $git_projects_settings can be set with per-project settings. Each key in this variable is the project path relative to the project root, ad the value is an array of settings mapped to values.
 
-{% highlight php %}
+{% highlight php startinline %}
 $git_projects_settings['php/gitphp.git'] = array(
   'category' => 'PHP',
   'description' => 'GitPHP, a web-based git repository browser in PHP',

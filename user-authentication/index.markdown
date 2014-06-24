@@ -11,7 +11,7 @@ GitPHP supports basic user authentication, in order to grant additional features
 ## User Setup
 GitPHP users are defined in the config file config/users.conf.php. If this file does not exist, or does not have any users in it, the entire user authentication functionality will be disabled and the login link will be hidden. Users are defined as individual key-value arrays within a main user array, $gitphp_users. Each individual user has a 'username' and 'password' key, set to the user's login username and password, respectively.
 
-{% highlight php %}
+{% highlight php startinline %}
 $gitphp_users = array(
   array(
     'username' => 'user1',
